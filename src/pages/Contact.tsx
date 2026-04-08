@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 export default function Contact() {
   return (
     <div>
@@ -12,4 +13,12 @@ export default function Contact() {
         </div>
     </div>
   )
+=======
+export default function Contact() {
+  return (
+  <div className="flex flex-col items-center justify-center h-screen">
+    <h1>Contact Seite</h1>
+  </div>
+  )
+>>>>>>> d48c480b76e43640fcf3309d5a6028869f61b1df
 }
