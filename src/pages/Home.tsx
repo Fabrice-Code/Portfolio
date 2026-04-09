@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import Hero from "../components/Hero"
 import Projects from "../pages/Projects"
 import About from "../pages/About"
@@ -15,7 +14,7 @@ export default function Home() {
       <section id="about" className="py-16">
         <About />
       </section>
-      
+
       <section id="skills" className="py-16">
         <Skills />
       </section>
@@ -29,8 +28,4 @@ export default function Home() {
       </section>
     </div>
   )
-=======
-export default function Home() {
-  return <h1>Home Seite</h1>
->>>>>>> d48c480b76e43640fcf3309d5a6028869f61b1df
 }

@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
@@ -7,7 +6,7 @@ export default {
   ],
   theme: {
     extend: {
-keyframes: {
+      keyframes: {
         typing: {
           from: { width: "0" },
           to: { width: "100%" },
@@ -23,16 +22,4 @@ keyframes: {
     },
   },
   plugins: [],
-=======
-/** @type {import('tailwindcss').Config} */
-export default {
-  content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
-  ],
-  theme: {
-    extend: {},
-  },
-  plugins: [],
->>>>>>> d48c480b76e43640fcf3309d5a6028869f61b1df
 }
