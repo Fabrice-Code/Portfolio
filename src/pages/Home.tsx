@@ -14,7 +14,7 @@ export default function Home() {
       <section id="about" className="py-16">
         <About />
       </section>
-
+      
       <section id="skills" className="py-16">
         <Skills />
       </section>

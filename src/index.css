@@ -6,9 +6,12 @@
   --card-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
   --card-bg: linear-gradient(144deg, #AF40FF, #5B42F3 50%, #00DDEB);
   --card-bc: rgb(5, 6, 45);
-  --text-size: clamp(1.8rem, calc(7vw + 1rem), 4rem);
-  --line-height: 1.5rem;
+  --text-size: clamp(1.25rem, calc(0.8vw + 1rem), 3rem);
+  --heading-size: clamp(2rem, calc(2.5vw + 1.5rem), 4rem);
+  --line-height: 2.5rem;
   --padding: clamp(1em, 2vw, 2em);
+  --text-gradient-from: #daa765;
+  --text-gradient-to: #ee2b7f;
 }
 
 html {

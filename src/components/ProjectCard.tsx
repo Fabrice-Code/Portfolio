@@ -19,9 +19,9 @@ export default function ProjectCard({ title, description, tech, github }: Props)
       <h3 className="text-xl font-bold">{title}</h3>
       <p className="mt-2 text-gray-400">{description}</p>
 
-      <div className="flex gap-2 mt-4 flex-wrap">
+      <div className="flex gap-2 mt-4 flex-wrap justify-center">
         {tech.map((t, i) => (
-          <span key={i} className="text-sm bg-gray-400 px-2 py-1 rounded">      
+          <span key={i} className="text-sm bg-gray-400 px-2 py-1 rounded">
             {t}
           </span>
         ))}
@@ -30,11 +30,11 @@ export default function ProjectCard({ title, description, tech, github }: Props)
       <a
         href={github}
         target="_blank"
-        rel="noreferrer"
         className="inline-block mt-4 text-purple-400 hover:underline"
       >
         GitHub →
       </a>
+
 
     </motion.div>
   )

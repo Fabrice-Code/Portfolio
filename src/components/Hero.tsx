@@ -12,11 +12,11 @@ type Props = {
 
 export default function Hero({ github, linkedin }: Props) {
   return (
-    <section className="min-h-screen grid grid-cols-1 md:grid-cols-2 items-center gap-8 md:gap-16 px-4 md:px-8 lg:px-16 py-12">
+    <section className="min-h-screen grid grid-cols-1 md:grid-cols-2 items-center md:gap-60 px-24 lg:px-16 py-12">
       <div className="text-center md:text-left space-y-6">
 
         <motion.h1
-          className="[font-size:var(--text-size)] md:text-6xl lg:text-7xl font-bold bg-gradient-to-r from-purple-600 to-pink-100 text-transparent bg-clip-text"
+          className="[font-size:var(--heading-size)] font-bold bg-gradient-to-r from-purple-600 to-pink-100 text-transparent bg-clip-text text-center"
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}
@@ -25,7 +25,7 @@ export default function Hero({ github, linkedin }: Props) {
         </motion.h1>
 
         <motion.p
-          className="[font-size:var(--text-size)] mt-4 text-xl text-[#E5E7EB]"
+          className="[font-size:var(--text-size)] leading-[var(--line-height)] text-center mt-4 text-xl text-[#E5E7EB]"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.5 }}
@@ -72,12 +72,12 @@ export default function Hero({ github, linkedin }: Props) {
       </div>
 
       </div>
-      <div className="">
-        <div className="place-items-center">
+      <div className="-z-10">
+        <div className="place-items-center items-center max-w-full h-auto aspect-square object-cover">
         <motion.img
           src={logo}
           alt="Hero Bild"
-          className="max-w-[500px] rounded-xl shadow-lg"
+          className="max-w-[650px] rounded-xl shadow-lg"
           initial={{ opacity: 0, scale: 0.9 }}
           animate={{ opacity: 1, scale: 1 }}
         />
